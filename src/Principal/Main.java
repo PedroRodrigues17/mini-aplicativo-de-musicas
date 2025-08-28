@@ -75,9 +75,9 @@ public class Main {
 
                         meuCatalogo.adicionarMidia(novaMusica);
                         System.out.println("Música adicionada com sucesso!");
-                        break; // Break adicionado
+                        break; 
 
-                    case "3": // Movemos o case 3 para o lugar correto
+                    case "3":
                         System.out.print("Digite o titulo da musica que Deseja remover: ");
                         String RemoverMusica = scan.nextLine();
                         try {
@@ -104,7 +104,7 @@ public class Main {
                 System.out.print("Digite Qual funçao voce deseja acessar: ");
                 String opcaopodcast = scan.nextLine();
 
-                switch (opcaopodcast) { // Movemos o switch para o local correto
+                switch (opcaopodcast) {
                     case "1":
                         System.out.print("Digite o titulo do Episodio que voce deseja: ");
                         String tituloPodcast = scan.nextLine();
